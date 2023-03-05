@@ -1,0 +1,63 @@
+.jumbotron{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.naam{
+    padding-top: 25%;
+    padding-bottom: 15%;
+    text-align: center;
+    font-size: 72px;
+}
+
+span.keeptogheter{
+    white-space: nowrap;
+}
+
+.sideBarSocials{
+    width: 60px;
+    position: fixed;
+    bottom: 10px;
+    left: 40px;
+    z-index: 10;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav{
+    padding: 0, 50, 10, 0px;
+}
+
+.insideContainer{
+    margin-top: 5%;
+}
+
+.insideContainer>h1{
+    padding-bottom: 20px;
+}
+
+.insideContainer>h5{
+    margin-bottom: 1.5%;
+    margin-top: 5%;
+}
+
+.list-group-item.active{
+    background-color: gray;
+    border-color: gray;
+}
+
+.experienceCard{
+    border: none;
+}
+
+.studies{
+    background-color: gray;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.painting{
+    width: auto;
+    height: 90%;
+}
