@@ -14,17 +14,11 @@ const NavBar = () => {
                         <LinkContainer to={"/home"}>
                             <Nav.Link>HOME</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to={"/about"}>
-                            <Nav.Link>ABOUT</Nav.Link>
-                        </LinkContainer>
                         <LinkContainer to={"/experience"}>
                             <Nav.Link>EXPERIENCE</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={"/work"}>
                             <Nav.Link>WORK</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to={"/art"}>
-                            <Nav.Link>ART</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={"/contact"}>
                             <Nav.Link>CONTACT</Nav.Link>

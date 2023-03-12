@@ -31,7 +31,7 @@ const Experience = () => {
         <Container className={"insideContainer"}>
             <h1>EXPERIENCE</h1>
             {components.map((comp, i) => (
-                <Component key={i} title={comp.title} toggleIsOpen={() => toggleIsOpen(i)}
+                <Component className={"component"} key={i} title={comp.title} toggleIsOpen={() => toggleIsOpen(i)}
                            isOpen={openComponents[i]}>
                     {comp.children}
                 </Component>

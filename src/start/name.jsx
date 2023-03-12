@@ -14,8 +14,10 @@ const Name = () => {
     return (
         <div className="jumbotron jumbotron-fluid">
         <div className="container" onClick={() => navigate('/home')}>
-          <div className="naam">LIESBETH <span className="keeptogheter">DE HAES</span> 
+          <div className="home"><h1 className="naam">LIESBETH <span className="keeptogheter">DE HAES</span></h1>
+          <p className="subtitle">CRYPTOTRADER - BACKEND DEVELOPER</p>
           </div>
+          
         </div>
     </div>
     )

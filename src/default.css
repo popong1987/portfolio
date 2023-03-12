@@ -2,11 +2,20 @@
     font-family: 'Hind Madurai', sans-serif;
 }
 
+.home{
+    padding-bottom: 15%;
+}
+
 .naam{
     padding-top: 25%;
-    padding-bottom: 15%;
     text-align: center;
     font-size: 72px;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
 }
 
 span.keeptogheter{
@@ -60,4 +69,8 @@ ul{
 .painting{
     width: auto;
     height: 90%;
+}
+
+.component{
+    padding-bottom: 5%;
 }
