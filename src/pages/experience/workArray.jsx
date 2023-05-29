@@ -4,9 +4,11 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
+
 const WorkArray = ({experienceArray}) => {
     return (
-        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#3">
+        <div>
+            <Tab.Container id="list-group-tabs-example" defaultActiveKey="#3">
         <Row>
             <Col sm={4}>
                 <ListGroup>
@@ -30,6 +32,8 @@ const WorkArray = ({experienceArray}) => {
             </Col>
         </Row>
     </Tab.Container>
+        </div>
+        
     )
 }
 

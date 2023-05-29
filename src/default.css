@@ -1,5 +1,12 @@
+body,
+html{
+    font-family: 'Space Mono', monospace;
+    background-color: black;
+    color: rgb(0, 255, 42);
+}
+
 .jumbotron{
-    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Space Mono', monospace;
 }
 
 .home{
@@ -15,7 +22,7 @@
 .subtitle{
     text-align: center;
     font-size: 30px;
-    color: gray;
+    color: rgb(240, 10, 228);
 }
 
 span.keeptogheter{
@@ -52,16 +59,38 @@ ul{
 }
 
 .list-group-item.active{
-    background-color: gray;
-    border-color: gray;
+    background-color: black;
+    border-color: rgb(240, 10, 228);
+    color: rgb(240, 10, 228);
 }
+
+.list-group-item-action:focus, .list-group-item-action:hover{
+    background-color: rgb(0, 255, 42);
+    border-color: black;
+    color: black;
+}
+
+
+
+.list-group-item{
+    color: rgb(0, 255, 42);
+    background-color: black;
+}
+
+.contact{
+    background-color: black;
+    color: rgb(0, 255, 42);
+}
+
+
 
 .experienceCard{
     border: none;
+    background-color: black;
 }
 
 .studies{
-    background-color: gray;
+    background-color: black;
     text-align: center;
     vertical-align: middle;
 }
@@ -74,3 +103,13 @@ ul{
 .component{
     padding-bottom: 5%;
 }
+
+.full-bleed{
+    box-shadow: 0 0 0 100vmax black;
+    clip-path: inset(0);
+}
+
+.navBar{
+    color: rgb(0, 255, 42);
+}
+

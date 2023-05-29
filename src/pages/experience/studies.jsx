@@ -4,7 +4,8 @@ import Tab from 'react-bootstrap/Tab';
 
 const Studies = ({ studiesArray }) => {
     return (
-        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#0">
+        <div>
+                 <Tab.Container id="list-group-tabs-example" defaultActiveKey="#0">
             <Row>
                 <Col sm={4}>
                     <ListGroup>
@@ -20,8 +21,9 @@ const Studies = ({ studiesArray }) => {
 
                         {studiesArray.map(s =>
                             <Tab.Pane eventKey={`#${s.id}`} key={s.id}>
-                                <Card.Body>
-                                    <div>{s.school} - {s.place} | {s.period}</div>
+                                <Card.Body className='font-monospace'>
+                                    <h4>{s.school.toUpperCase()} </h4>
+                                    <h5>{s.place} | {s.period}</h5>
                                     <div>{s.extra}</div>
                                 </Card.Body>
                             </Tab.Pane>
@@ -30,6 +32,8 @@ const Studies = ({ studiesArray }) => {
                 </Col>
             </Row>
         </Tab.Container>
+        </div>
+       
     )
 }
 

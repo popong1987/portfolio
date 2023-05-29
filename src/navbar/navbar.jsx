@@ -1,9 +1,14 @@
 import {LinkContainer} from 'react-router-bootstrap';
 import { Navbar, Container, Nav} from 'react-bootstrap';
+import styled from 'styled-components';
 
 const NavBar = () => {
+    const NavWrapper = styled.span`
+    color: rgb(0, 255, 42)
+  }
+`
     return (
-        <Navbar bg="white" expand="lg" variant="light">
+        <Navbar bg="black" expand="lg" className='navBar' variant="dark">
             <Container fluid>
                 <LinkContainer to={"/"}>
                     <Navbar.Brand>LDH</Navbar.Brand>
@@ -12,16 +17,16 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                     <Nav>
                         <LinkContainer to={"/home"}>
-                            <Nav.Link>HOME</Nav.Link>
+                            <Nav.Link><NavWrapper>HOME</NavWrapper></Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={"/experience"}>
-                            <Nav.Link>EXPERIENCE</Nav.Link>
+                            <Nav.Link><NavWrapper>EXPERIENCE</NavWrapper></Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={"/work"}>
-                            <Nav.Link>WORK</Nav.Link>
+                            <Nav.Link><NavWrapper>WORK</NavWrapper></Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={"/contact"}>
-                            <Nav.Link>CONTACT</Nav.Link>
+                            <Nav.Link><NavWrapper>CONTACT</NavWrapper></Nav.Link>
                         </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>

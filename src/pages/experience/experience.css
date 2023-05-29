@@ -1,0 +1,20 @@
+.component{
+    padding-bottom: 5%;
+}
+
+
+
+.full-bleed{
+    box-shadow: 0 0 0 100vmax black;
+    clip-path: inset(0 -100vmax);
+}
+
+.full-bleed-white{
+    box-shadow: 0 0 0 100vmax white;
+    clip-path: inset(0 -100vmax);
+}
+
+.inverse{
+    background-color: rgb(0, 255, 42);
+    color: black;
+}
