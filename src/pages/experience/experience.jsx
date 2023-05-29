@@ -30,11 +30,15 @@ const Experience = () => {
     return (
         <Container className={"insideContainer"}>
             <h1>EXPERIENCE</h1>
+
             {components.map((comp, i) => (
-                <Component className={"component"} key={i} title={comp.title} toggleIsOpen={() => toggleIsOpen(i)}
-                           isOpen={openComponents[i]}>
+                <>
+                <Component  key={i} title={comp.title}  toggleIsOpen={() => toggleIsOpen(i)} isOpen={openComponents[i]}>
                     {comp.children}
                 </Component>
+                </>
+                
+                
             ))}
             
             {/* <h5>WORK</h5>
