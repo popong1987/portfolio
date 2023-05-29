@@ -6,23 +6,23 @@ const experienceArray = [
         period: "2017-heden",
         skills: [
             {
-                skill: "Beheer van eigen portfolio",
+                skill: "Managing own portfolio",
                 id: 0,
             },
             {
-                skill: "Lezen en analyseren van financiële kaarten",
+                skill: "Reading and analyzing financial charts",
                 id: 1,
             },
             {
-                skill: "Analyseren hoe een strategie presteert",
+                skill: "Analyse how a strategy is performing",
                 id: 2,
             },
             {
-                skill: "Herkennen en voorspellen van patronen in prijsveranderingen",
+                skill: "Recognizing and predicting patterns in price charts",
                 id: 3,
             },
             {
-                skill: "De fundamentele kenmerken van de cryptocurrency markt begrijpen",
+                skill: "Understanding the fundamentals of the cryptocurrency market",
                 id: 4,
             }]
     },
@@ -33,82 +33,82 @@ const experienceArray = [
         period: "2019 - 2021",
         skills: [
             {
-                skill: "Medewerkers aan het werk zetten, begeleiden en motiveren",
+                skill: "Give employees work and guide and motivate them",
                 id: 0,
             },
             {
-                skill: "Zorgen voor efficiënte aansturing van het werk in de winkel",
+                skill: "Ensuring efficient managment of the work in the store",
                 id: 1,
             },
             {
-                skill: "Bestellingen plaatsen",
+                skill: "Placing orders",
                 id: 2,
             },
             {
-                skill: "Voldoen aan vereiste verkooppromoties",
+                skill: "Fullfill required sales promotions",
                 id: 3,
             },
             {
-                skill: "Aanbod van de producten verbeteren",
+                skill: "Improve the range of products",
                 id: 4,
             },
             {
-                skill: "Behandelen van klachten en vragen van klanten",
+                skill: "Handling customer complaints and inquiries",
                 id: 5,
             },
             {
-                skill: "Verkooptrends analyseren",
+                skill: "Analyze sales trends",
                 id: 6,
             },
         ]
     },
     {
         id: 1,
-        title: "Assistent",
-        place: "Exotic - Insects (Indonesië)",
+        title: "Assistant",
+        place: "Exotic - Insects (Indonesia)",
         period: "2015 - 2019",
         skills: [
             {
-                skill: "Kwaliteitscontrole van insecten",
+                skill: "Quality control of insects",
                 id: 0,
             },
             {
-                skill: "Promotiemateriaal ontwerpen",
+                skill: "Design promotional material",
                 id: 1,
             },
             {
-                skill: "Boekhouding bijhouden",
+                skill: "Accounting",
                 id: 2,
             },
             {
-                skill: "Plannen en organiseren van het werk",
+                skill: "Planning and organizing the work",
                 id: 3,
             },
             {
-                skill: "vlinders kweken, rupsen verzorgen",
+                skill: "Breed butterflies, take care of the caterpillars",
                 id: 4,
             }]
     },
     {
         id: 0,
-        title: "Leerkracht Beeldende Vorming",
+        title: "Teacher of Visual Arts",
         place: "SASK Sint-Niklaas",
         period: "2010 - 2015",
         skills: [
             {
-                skill: "Lessen voorbereiden",
+                skill: "prepare lessons",
                 id: 0,
             },
             {
-                skill: "Materialen bestellen en voorzien voor de leerlingen",
+                skill: "Provide and order materials for students",
                 id: 1,
             },
             {
-                skill: "Leerlingen begeleiden met hun persoonlijke projecten",
+                skill: "Guiding students with their personal projects",
                 id: 2,
             },
             {
-                skill: "Vooruitgang van leerlingen evalueren",
+                skill: "Evaluate progress of students",
                 id: 3,
             },
         ]

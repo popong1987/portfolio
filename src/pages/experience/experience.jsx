@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import './experience.css';
 import WorkArray from './workArray';
 import experienceArray from '../../data/expierenceArray';
@@ -7,6 +7,7 @@ import studiesArray from '../../data/studiesArray';
 import SkillSet from './skillSet';
 import { useState } from 'react';
 import Component from './component';
+import resume from '../../data/resumeLiesbethDeHaes.pdf';
 
 const components = [
     {title: 'WORK', children: <WorkArray experienceArray={experienceArray}/>},
@@ -29,13 +30,14 @@ const Experience = () => {
 
     return (
         <Container className={"insideContainer"}>
-            <h1>EXPERIENCE</h1>
+            <h1>EXPERIENCE  <a className='btn btn-outline btnColor' href={resume} download="resumeLiesbethDeHaes.pdf"> Download resume </a> </h1> 
 
             {components.map((comp, i) => (
                 <>
                 <Component  key={i} title={comp.title}  toggleIsOpen={() => toggleIsOpen(i)} isOpen={openComponents[i]}>
                     {comp.children}
                 </Component>
+                <hr className='workTitle'/>
                 </>
                 
                 

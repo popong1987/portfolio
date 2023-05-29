@@ -1,33 +1,33 @@
 const studiesArray = [{
     id: 0,
-    name: "Master Vrije Beeldende Kunsten (vrije grafiek)",
-    school: "Koninklijke Academie voor Schone Kunsten (Artesis Hogeschool)",
+    name: "Master of Fine Arts (printmaking)",
+    school: "Royal Academy of Fine Arts (Artesis Hogeschool)",
     place: "Antwerpen",
     period: "2005-2009",
-    extra: "afgestudeerd met onderscheiding"
+    extra: "graduated with honors"
 },
 {
     id: 1,
-    name: "Master Specifieke Lerarenopleiding",
-    school: "Koninklijke Academie voor Schone Kunsten (Artesis Hogeschool)",
+    name: "Master of Education",
+    school: "Royal Academy of Fine Arts (Artesis Hogeschool)",
     place: "Antwerpen",
     period: "2008-2010",
-    extra: "afgestudeerd met onderscheiding"
+    extra: "graduated with honors"
 },
 {
     id: 2,
-    name: "Master Vrije Beeldende Kunsten (foto/video)",
+    name: "Master of Fine Arts (photo/video)",
     school: "Sint-Lucas (Karel de Grote Hogeschool)",
     place: "Antwerpen",
     period: "2009-2011",
-    extra: "verkorte master opleiding"
+    extra: ""
 },
 {
     id: 3,
-    name: "Graduaat Programmeren",
+    name: "Associate Degree Programming",
     school: "Thomas More",
     place: "Lier",
-    period: "2021-heden",
+    period: "2021-now",
 }
 ]
 

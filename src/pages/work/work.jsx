@@ -3,11 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap';
 const Work = () => {
     return (
         <Container className={"insideContainer"}>
-           <h1>WORK</h1>
            <Row>
-            
+
             <Col>
-                <h3>Crypto App</h3>
+                <h3 className='workTitle'>Crypto App</h3>
                 <p>
                     One of the features of this app is the ability to calculate Dollar Cost Averaging (DCA) levels.
                     It helps you calculate quickly at which levels you want to buy again and what the size the buy needs to be.
@@ -21,14 +20,15 @@ const Work = () => {
                 <p></p>
                 <p> Made with Typescript & Angular</p>
             </Col>
-            <Col><a href="https://github.com/popong1987/mobieleApplicatiesProject" target="_blank"><img src="https://i.ibb.co/93T2Lqr/cryptoapp.png" alt="cryptoapp" border="0"/></a></Col>
+            <Col className='text-center'><a href="https://github.com/popong1987/mobieleApplicatiesProject" target="_blank"><img src="https://i.ibb.co/djWW2GL/Screenshot-20230529-154404-crypto-App.jpg" alt="Screenshot-20230529-154404-crypto-App" border="0"/></a></Col>
+
            </Row>
-           <Row className='mt-5'>
-           <Col>
+           <Row className='workRow'>
+           <Col className='text-center'>
             <a href="https://github.com/popong1987/NFTMarketplace_opnieuw" target="_blank"><img src="https://i.ibb.co/GkYYHLG/nftmarketplace.png" alt="nftmarketplace" border="0"/></a>
             </Col>
             <Col>
-                <h3>NFT Marketplace</h3>
+                <h3 className='workTitle'>NFT Marketplace</h3>
                 <p>This is a school project where we had to use asp.net. Because I am very enthusiast about cryptocurrencies and NFTs, I chose to focus my project on NFTs.
                     It doesn't incorporate blockchain technology, it serves as an interactive webshop that emulates the experience of exploring and purchasing NFTs.
                     You can search through collections and galleries.
@@ -36,8 +36,6 @@ const Work = () => {
                 <p></p>
 
             </Col>
-
-            
            </Row>
         </Container>
     )

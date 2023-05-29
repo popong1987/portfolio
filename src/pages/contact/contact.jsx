@@ -30,7 +30,7 @@ const Contact = () => {
             <Row>
                 <Col md={"5"}>
                     <div className={"row pt-5 mx-auto"}>
-                        <h3 className="pb-4 font-monospace fw-bold">Hi!</h3>
+                        <h3 className="pb-4 fw-bold workTitle">Hi!</h3>
                         <p>
                             Thank you for visiting my website!
                             I would love to hear from you and learn more about how I can contribute to your projects or answer any questions you may have.

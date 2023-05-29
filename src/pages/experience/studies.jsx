@@ -21,8 +21,9 @@ const Studies = ({ studiesArray }) => {
 
                         {studiesArray.map(s =>
                             <Tab.Pane eventKey={`#${s.id}`} key={s.id}>
+                                <Card.Title><h4 className="workTitle">{s.school.toUpperCase()} </h4></Card.Title>
                                 <Card.Body className='font-monospace'>
-                                    <h4>{s.school.toUpperCase()} </h4>
+                                    
                                     <h5>{s.place} | {s.period}</h5>
                                     <div>{s.extra}</div>
                                 </Card.Body>
