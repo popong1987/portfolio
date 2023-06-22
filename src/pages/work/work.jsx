@@ -2,7 +2,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Work = () => {
     return (
-        <Container className={"insideContainer"}>
+        <Container className={"insideContainer mb-5"}>
            <Row>
 
             <Col>
@@ -30,10 +30,10 @@ const Work = () => {
             <Col>
                 <h3 className='workTitle'>NFT Marketplace</h3>
                 <p>This is a school project where we had to use asp.net. Because I am very enthusiast about cryptocurrencies and NFTs, I chose to focus my project on NFTs.
-                    It doesn't incorporate blockchain technology, it serves as an interactive webshop that emulates the experience of exploring and purchasing NFTs.
-                    You can search through collections and galleries.
+                    
                 </p>
-                <p></p>
+                <p>It doesn't incorporate blockchain technology, it serves as an interactive webshop that emulates the experience of exploring and purchasing NFTs.
+                    You can search through collections and galleries.</p>
 
             </Col>
            </Row>

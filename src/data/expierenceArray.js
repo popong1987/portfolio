@@ -3,7 +3,7 @@ const experienceArray = [
         id: 3,
         title: "Day/Swing - Trader",
         place: "Popong BV",
-        period: "2017-heden",
+        period: "2017-now",
         skills: [
             {
                 skill: "Managing own portfolio",

@@ -1,6 +1,8 @@
 import {LinkContainer} from 'react-router-bootstrap';
 import { Navbar, Container, Nav} from 'react-bootstrap';
 import styled from 'styled-components';
+import Icon from '@mdi/react';
+import { mdiSpaceInvaders } from '@mdi/js';
 
 const NavBar = () => {
     const NavWrapper = styled.span`
@@ -11,7 +13,7 @@ const NavBar = () => {
         <Navbar bg="black" expand="lg" className='navBar' variant="dark">
             <Container fluid>
                 <LinkContainer to={"/"}>
-                    <Navbar.Brand>LDH</Navbar.Brand>
+                    <Navbar.Brand><img src="https://i.postimg.cc/4N99bWS2/space-invaders-icon-136180.png" height={'30vh'}/></Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">

@@ -9,9 +9,9 @@ const SideBarSocials = () => {
                    <li>
                         <h3><a href="https://github.com/popong1987" target="_blank"><AiFillGithub/></a></h3>
                    </li>
-                   <li>
+                   {/* <li>
                         <h3><a href="https://github.com/popong1987" target="_blank"><AiFillInstagram/></a></h3>
-                   </li>
+                   </li> */}
                    <li>
                        <h3><a href="https://www.linkedin.com/in/liesbeth-de-haes-5132565a/" target="_blank"><AiFillLinkedin/></a></h3>
                    </li>
